@@ -1,3 +1,31 @@
 ﻿<Properties StartupConfiguration="{F9A456C5-3CCE-46C9-8474-8DC5DF0F69C6}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tests/frontendTests.cs">
+    <Files>
+      <File FileName="Tests/frontendTests.cs" Line="12" Column="41" />
+      <File FileName="Pages/mainPage.cs" />
+      <File FileName="Pages/loginPage.cs" />
+      <File FileName="Pages/headerMenu.cs" />
+      <File FileName="Tests/tryOuts.cs" />
+      <File FileName="Usings.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="KNAB-Assessment" expanded="True" selected="True">
+            <Node name="KNAB-Assessment" expanded="True">
+              <Node name="Pages" expanded="True" />
+              <Node name="Tests" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.KNAB-Assessment PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

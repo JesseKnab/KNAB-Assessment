@@ -21,6 +21,7 @@ namespace KNAB_Assessment.Tests
 		public void loginTest()
 		{
 			driver.FindElement(By.LinkText("Log in")).Click();
+			//temporary
 			Thread.Sleep(5000);
 		}
 
