@@ -2,25 +2,30 @@
 using System;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using SeleniumExtras.PageObjects;
+using KNAB_Assessment.Pages;
 
 namespace KNAB_Assessment.Tests
 {
 	[TestFixture]
 	public class frontendTests
 	{
-		IWebDriver driver = new ChromeDriver();
+		private IWebDriver _driver;
 		string url = "https://www.trello.com";
 
 		[SetUp]
 		public void Setup()
 		{
-			driver.Navigate().GoToUrl(url);
+            _driver = new ChromeDriver();
+            _driver.Navigate().GoToUrl(url);
         }
 
 		[Test]
 		public void loginTest()
 		{
-			driver.FindElement(By.LinkText("Log in")).Click();
+			LoginPage loginPage = new LoginPage(_driver);
+			loginPage.logIn();
+
 			//temporary
 			Thread.Sleep(5000);
 		}
@@ -28,7 +33,7 @@ namespace KNAB_Assessment.Tests
 		[TearDown]
 		public void TearDown()
 		{
-			driver.Close();
+			_driver.Close();
 		}
 	}
 }
