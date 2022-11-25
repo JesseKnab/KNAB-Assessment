@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vcS2qi9T7SNsLX7czgmn1t+YW+51EOV+aCQVjWLbr0rZ0QCej1PLpMMvS11Y+q0xTAWTNP3pB6eXQ5ZGeKpCig==",
+  "dgSpecHash": "D9jRHTkK7WEL/rlbB4QyhkKKhUXxMEvvdZDN1VAYS5/qrvJZ4EoafByLduogzfKZz6XhDwcReXcXiW5GI6KjFQ==",
   "success": true,
   "projectFilePath": "/Users/jesse/Projects/KNAB-Assessment/KNAB-Assessment/KNAB-Assessment.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "/Users/jesse/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
     "/Users/jesse/.nuget/packages/nunit.analyzers/3.3.0/nunit.analyzers.3.3.0.nupkg.sha512",
     "/Users/jesse/.nuget/packages/nunit3testadapter/4.3.1/nunit3testadapter.4.3.1.nupkg.sha512",
+    "/Users/jesse/.nuget/packages/restsharp/108.0.3/restsharp.108.0.3.nupkg.sha512",
     "/Users/jesse/.nuget/packages/selenium.webdriver/4.6.0/selenium.webdriver.4.6.0.nupkg.sha512",
     "/Users/jesse/.nuget/packages/selenium.webdriver.chromedriver/107.0.5304.6200/selenium.webdriver.chromedriver.107.0.5304.6200.nupkg.sha512",
     "/Users/jesse/.nuget/packages/seleniumextras.waithelpers/1.0.2/seleniumextras.waithelpers.1.0.2.nupkg.sha512",
