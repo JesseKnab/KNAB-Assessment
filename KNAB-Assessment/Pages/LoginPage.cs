@@ -49,10 +49,7 @@ namespace KNAB_Assessment.Pages
             _passwordTextField.SendKeys(password);
             _loginButton.Click();
 
-			//temporary
-			Thread.Sleep(10000);
 		}
-
     }
 }
 
