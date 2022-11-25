@@ -396,3 +396,9 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Custom KNAB
+KNAB-Assessment/obj/
+KNAB-Assessment/bin/
+KNAB-Assessment/.vs/
+
