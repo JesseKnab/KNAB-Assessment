@@ -15,6 +15,7 @@
           "NUnit": "3.13.3",
           "NUnit.Analyzers": "3.3.0",
           "NUnit3TestAdapter": "4.3.1",
+          "RestSharp": "108.0.3",
           "Selenium.WebDriver": "4.6.0",
           "Selenium.WebDriver.ChromeDriver": "107.0.5304.6200",
           "SeleniumExtras.WaitHelpers": "1.0.2",
@@ -338,6 +339,14 @@
       },
       "NUnit.Analyzers/3.3.0": {},
       "NUnit3TestAdapter/4.3.1": {},
+      "RestSharp/108.0.3": {
+        "runtime": {
+          "lib/net6.0/RestSharp.dll": {
+            "assemblyVersion": "108.0.3.0",
+            "fileVersion": "108.0.3.0"
+          }
+        }
+      },
       "Selenium.WebDriver/4.6.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
@@ -474,6 +483,13 @@
       "sha512": "sha512-R+bGFtsUpLWywjT1nb3xMmoVa2AIw6ClIGC+XjW9lYE8hwJeos+NdR/mtg4RXbBphmC9epALrnUc6MM7mUG8+Q==",
       "path": "nunit3testadapter/4.3.1",
       "hashPath": "nunit3testadapter.4.3.1.nupkg.sha512"
+    },
+    "RestSharp/108.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-phq1AkVhqVXHZxvWDV4fJEJKCR5OHNFUGx2Ix8o5EFShS6654oZhth4X2RWvaU/W7UexIswW0T+lTirxfLU2Ow==",
+      "path": "restsharp/108.0.3",
+      "hashPath": "restsharp.108.0.3.nupkg.sha512"
     },
     "Selenium.WebDriver/4.6.0": {
       "type": "package",

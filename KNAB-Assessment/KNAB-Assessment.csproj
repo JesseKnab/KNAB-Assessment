@@ -21,6 +21,7 @@
     <PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="3.11.0" />
     <PackageReference Include="DotNetSeleniumExtras.PageObjects.Core" Version="4.3.0" />
     <PackageReference Include="SeleniumExtras.WaitHelpers" Version="1.0.2" />
+    <PackageReference Include="RestSharp" Version="108.0.3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,6 +33,7 @@
     <None Remove="DotNetSeleniumExtras.PageObjects" />
     <None Remove="DotNetSeleniumExtras.PageObjects.Core" />
     <None Remove="SeleniumExtras.WaitHelpers" />
+    <None Remove="RestSharp" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Tests\" />
