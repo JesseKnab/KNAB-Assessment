@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LS15AUgpBI0CFYcpMesh+S7ByrdGtbumycslrFxRg1B/JfYJJlK6LliUY347p8FScNh5GVydWoq8eiaBQiJTVw==",
+  "dgSpecHash": "vcS2qi9T7SNsLX7czgmn1t+YW+51EOV+aCQVjWLbr0rZ0QCej1PLpMMvS11Y+q0xTAWTNP3pB6eXQ5ZGeKpCig==",
   "success": true,
   "projectFilePath": "/Users/jesse/Projects/KNAB-Assessment/KNAB-Assessment/KNAB-Assessment.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "/Users/jesse/.nuget/packages/nunit3testadapter/4.3.1/nunit3testadapter.4.3.1.nupkg.sha512",
     "/Users/jesse/.nuget/packages/selenium.webdriver/4.6.0/selenium.webdriver.4.6.0.nupkg.sha512",
     "/Users/jesse/.nuget/packages/selenium.webdriver.chromedriver/107.0.5304.6200/selenium.webdriver.chromedriver.107.0.5304.6200.nupkg.sha512",
+    "/Users/jesse/.nuget/packages/seleniumextras.waithelpers/1.0.2/seleniumextras.waithelpers.1.0.2.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []

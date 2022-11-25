@@ -11,9 +11,11 @@ namespace KNAB_Assessment.Tests
 	public class frontendTests
 	{
 		private IWebDriver _driver;
-		string url = "https://www.trello.com";
+		private string url = "https://www.trello.com";
+		private string email = "jessehuisman80@gmail.com";
+		private string password = "KN4B-tr3llo";
 
-		[SetUp]
+        [SetUp]
 		public void Setup()
 		{
             _driver = new ChromeDriver();
@@ -24,10 +26,8 @@ namespace KNAB_Assessment.Tests
 		public void loginTest()
 		{
 			LoginPage loginPage = new LoginPage(_driver);
-			loginPage.logIn();
+			loginPage.logIn(email, password);
 
-			//temporary
-			Thread.Sleep(5000);
 		}
 
 		[TearDown]
