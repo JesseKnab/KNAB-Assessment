@@ -30,9 +30,9 @@ namespace KNAB_Assessment.Tests
         [Test]
         public void createBoardListAndCardTest()
         {
-            string idBoard = createNewBoard("New Board");
-            string idList = createNewList(idBoard, "New List");
-            string idCard = createNewCard(idList, "new Card");
+            string idBoard = createNewBoard("New Board A");
+            string idList = createNewList(idBoard, "New List B");
+            string idCard = createNewCard(idList, "New Card C");
         }
 
         public string createNewBoard(string boardName)
@@ -60,7 +60,7 @@ namespace KNAB_Assessment.Tests
             RestClient client = new RestClient(stringToPost);
             RestRequest request = new RestRequest();
             var response = client.Post(request);
-            Assert.That(response.StatusCode.ToString(), Is.EqualTo("Ok"), "error: request not accepted, status code: " + response.StatusCode.ToString());
+            Assert.That(response.StatusCode.ToString(), Is.EqualTo("OK"), "error: request not accepted, status code: " + response.StatusCode.ToString());
             string responseBody = response.Content.ToString();
             string id = responseBody.Substring(responseBody.IndexOf("id") + 5, responseBody.IndexOf("id") + 22);
             //Console.WriteLine("ID = " + id);
