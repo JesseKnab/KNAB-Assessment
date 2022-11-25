@@ -27,27 +27,32 @@ namespace KNAB_Assessment.Tests
         //targets
         private static string onIdList = sep + "idList=";
 
-
         [Test]
-        public static void createBoardListAndCard()
+        public void createBoardListAndCardTest()
         {
-
-            //create board
-            string stringToPostBoard = createBoard + assignName + "new board c" + addCredentials;
-            string idBoard = postRequest(stringToPostBoard);
-            //https://api.trello.com/1/boards?&name=new board a&key=1e3fa39780c1b75c5acb8c3ba9390883&token=5b90beb8391be3a47acb3cd6a80aa72564ce397577f1b37d80f3fe4e167d0252
-
-            //create list
-            string stringToPostList = onBoard + idBoard + createList + assignName + "new list c" + addCredentials;
-            string idList = postRequest(stringToPostList);
-
-            //https://api.trello.com/1/boards/"6380d280a7439200d07ee348"/lists?&name=new list a&key=1e3fa39780c1b75c5acb8c3ba9390883&token=5b90beb8391be3a47acb3cd6a80aa72564ce397577f1b37d80f3fe4e167d0252
-
-            //create card
-            string stringToPostCard = createCard + onIdList + idList + assignName + "new card c" + addCredentials;
-            string idCard = postRequest(stringToPostCard);
-
+            string idBoard = createNewBoard("New Board");
+            string idList = createNewList(idBoard, "New List");
+            string idCard = createNewCard(idList, "new Card");
         }
+
+        public string createNewBoard(string boardName)
+        {
+            string stringToPostBoard = createBoard + assignName + boardName + addCredentials;
+            return postRequest(stringToPostBoard); ;
+        }
+
+        public string createNewList(string idBoard, string listName)
+        {
+            string stringToPostList = onBoard + idBoard + createList + assignName + listName + addCredentials;
+            return postRequest(stringToPostList);
+        }
+
+        public string createNewCard(string idList, string cardName)
+        {
+            string stringToPostCard = createCard + onIdList + idList + assignName + cardName + addCredentials;
+            return postRequest(stringToPostCard);
+        }
+
 
         public static string postRequest(string stringToPost)
         {
@@ -55,6 +60,7 @@ namespace KNAB_Assessment.Tests
             RestClient client = new RestClient(stringToPost);
             RestRequest request = new RestRequest();
             var response = client.Post(request);
+            Assert.That(response.StatusCode.ToString(), Is.EqualTo("Ok"), "error: request not accepted, status code: " + response.StatusCode.ToString());
             string responseBody = response.Content.ToString();
             string id = responseBody.Substring(responseBody.IndexOf("id") + 5, responseBody.IndexOf("id") + 22);
             //Console.WriteLine("ID = " + id);
