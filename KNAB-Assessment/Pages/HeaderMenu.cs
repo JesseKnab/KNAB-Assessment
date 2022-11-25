@@ -1,10 +1,9 @@
 ﻿using System;
-
 namespace KNAB_Assessment.Pages
 {
-	public class mainPage
+	public class HeaderMenu
 	{
-		public mainPage()
+		public HeaderMenu()
 		{
 		}
 	}

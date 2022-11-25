@@ -18,6 +18,9 @@
     <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="107.0.5304.6200" />
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="Selenium.WebDriver" Version="4.6.0" />
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="3.11.0" />
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects.Core" Version="4.3.0" />
+    <PackageReference Include="SeleniumExtras.WaitHelpers" Version="1.0.2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -26,6 +29,9 @@
     <None Remove="Tests\" />
     <None Remove="Pages\" />
     <None Remove="Selenium.WebDriver" />
+    <None Remove="DotNetSeleniumExtras.PageObjects" />
+    <None Remove="DotNetSeleniumExtras.PageObjects.Core" />
+    <None Remove="SeleniumExtras.WaitHelpers" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Tests\" />

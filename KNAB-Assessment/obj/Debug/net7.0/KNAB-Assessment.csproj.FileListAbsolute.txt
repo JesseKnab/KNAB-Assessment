@@ -100,3 +100,5 @@
 /Users/jesse/Projects/KNAB-Assessment/KNAB-Assessment/bin/Debug/net7.0/selenium-manager/macos/selenium-manager
 /Users/jesse/Projects/KNAB-Assessment/KNAB-Assessment/bin/Debug/net7.0/selenium-manager/windows/selenium-manager.exe
 /Users/jesse/Projects/KNAB-Assessment/KNAB-Assessment/bin/Debug/net7.0/WebDriver.dll
+/Users/jesse/Projects/KNAB-Assessment/KNAB-Assessment/bin/Debug/net7.0/SeleniumExtras.PageObjects.dll
+/Users/jesse/Projects/KNAB-Assessment/KNAB-Assessment/bin/Debug/net7.0/SeleniumExtras.WaitHelpers.dll

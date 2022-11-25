@@ -41,6 +41,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "DotNetSeleniumExtras.PageObjects": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
+            "DotNetSeleniumExtras.PageObjects.Core": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "Microsoft.CSharp": {
               "target": "Package",
               "version": "[4.7.0, )"
@@ -68,6 +76,10 @@
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
               "version": "[107.0.5304.6200, )"
+            },
+            "SeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[1.0.2, )"
             },
             "coverlet.collector": {
               "target": "Package",

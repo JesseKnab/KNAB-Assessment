@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v7.0": {
       "KNAB-Assessment/1.0.0": {
         "dependencies": {
+          "DotNetSeleniumExtras.PageObjects": "3.11.0",
+          "DotNetSeleniumExtras.PageObjects.Core": "4.3.0",
           "Microsoft.CSharp": "4.7.0",
           "Microsoft.NET.Test.Sdk": "17.3.2",
           "NUnit": "3.13.3",
@@ -15,6 +17,7 @@
           "NUnit3TestAdapter": "4.3.1",
           "Selenium.WebDriver": "4.6.0",
           "Selenium.WebDriver.ChromeDriver": "107.0.5304.6200",
+          "SeleniumExtras.WaitHelpers": "1.0.2",
           "coverlet.collector": "3.1.2"
         },
         "runtime": {
@@ -22,6 +25,22 @@
         }
       },
       "coverlet.collector/3.1.2": {},
+      "DotNetSeleniumExtras.PageObjects/3.11.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.6.0"
+        }
+      },
+      "DotNetSeleniumExtras.PageObjects.Core/4.3.0": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.6.0"
+        },
+        "runtime": {
+          "lib/net5.0/SeleniumExtras.PageObjects.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/17.3.2": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -331,6 +350,17 @@
         }
       },
       "Selenium.WebDriver.ChromeDriver/107.0.5304.6200": {},
+      "SeleniumExtras.WaitHelpers/1.0.2": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/SeleniumExtras.WaitHelpers.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
       "System.Reflection.Metadata/1.6.0": {}
     }
   },
@@ -346,6 +376,20 @@
       "sha512": "sha512-wuLDIDKD5XMt0A7lE31JPenT7QQwZPFkP5rRpdJeblyXZ9MGLI8rYjvm5fvAKln+2/X+4IxxQDxBtwdrqKNLZw==",
       "path": "coverlet.collector/3.1.2",
       "hashPath": "coverlet.collector.3.1.2.nupkg.sha512"
+    },
+    "DotNetSeleniumExtras.PageObjects/3.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DJCLQ3beq1fzqpeQ5jTZwDqmzbOD2Xxsb/jCyShYam88CNwGGn5aBBqu4LVSj0sy0Ai76OauQQncYlC48VvQUQ==",
+      "path": "dotnetseleniumextras.pageobjects/3.11.0",
+      "hashPath": "dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512"
+    },
+    "DotNetSeleniumExtras.PageObjects.Core/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZqD0Rx5On7NvcwAQbnNnnUy1czifVYin17TN4jnWCIKkKofBJLMK0a0aR/uQ7sF9atUlOKHJRLjs6mZQ9shbTw==",
+      "path": "dotnetseleniumextras.pageobjects.core/4.3.0",
+      "hashPath": "dotnetseleniumextras.pageobjects.core.4.3.0.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.3.2": {
       "type": "package",
@@ -444,6 +488,13 @@
       "sha512": "sha512-0xkXvzwRXVbduG62Z7+vhM4a85x3mWlfGUSQn+4PdeVJdkkssVe4rV80J+WBEOfUJAjga7L6YydFkbd9ONJqxQ==",
       "path": "selenium.webdriver.chromedriver/107.0.5304.6200",
       "hashPath": "selenium.webdriver.chromedriver.107.0.5304.6200.nupkg.sha512"
+    },
+    "SeleniumExtras.WaitHelpers/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-de7m30nkZZLkfCncYBdluUpM27AR/Vkk4kiA4HRQbV+fZI3ps4qGIeJCuj8TAMXdMfQik5Rno8xPnFBIod+ebg==",
+      "path": "seleniumextras.waithelpers/1.0.2",
+      "hashPath": "seleniumextras.waithelpers.1.0.2.nupkg.sha512"
     },
     "System.Reflection.Metadata/1.6.0": {
       "type": "package",

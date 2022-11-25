@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "k6Tb3mGN0JSwfKuVRi4DE56kmz20hLSZB1h51hyNfXp17mFvszS9uJAo7slP8a4vV8aLG0sjzscu6WKjMHTA6Q==",
+  "dgSpecHash": "vcS2qi9T7SNsLX7czgmn1t+YW+51EOV+aCQVjWLbr0rZ0QCej1PLpMMvS11Y+q0xTAWTNP3pB6eXQ5ZGeKpCig==",
   "success": true,
   "projectFilePath": "/Users/jesse/Projects/KNAB-Assessment/KNAB-Assessment/KNAB-Assessment.csproj",
   "expectedPackageFiles": [
     "/Users/jesse/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
+    "/Users/jesse/.nuget/packages/dotnetseleniumextras.pageobjects/3.11.0/dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
+    "/Users/jesse/.nuget/packages/dotnetseleniumextras.pageobjects.core/4.3.0/dotnetseleniumextras.pageobjects.core.4.3.0.nupkg.sha512",
     "/Users/jesse/.nuget/packages/microsoft.codecoverage/17.3.2/microsoft.codecoverage.17.3.2.nupkg.sha512",
     "/Users/jesse/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/jesse/.nuget/packages/microsoft.net.test.sdk/17.3.2/microsoft.net.test.sdk.17.3.2.nupkg.sha512",
@@ -19,6 +21,7 @@
     "/Users/jesse/.nuget/packages/nunit3testadapter/4.3.1/nunit3testadapter.4.3.1.nupkg.sha512",
     "/Users/jesse/.nuget/packages/selenium.webdriver/4.6.0/selenium.webdriver.4.6.0.nupkg.sha512",
     "/Users/jesse/.nuget/packages/selenium.webdriver.chromedriver/107.0.5304.6200/selenium.webdriver.chromedriver.107.0.5304.6200.nupkg.sha512",
+    "/Users/jesse/.nuget/packages/seleniumextras.waithelpers/1.0.2/seleniumextras.waithelpers.1.0.2.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
   "logs": []
